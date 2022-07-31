@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetGsmSpecs</title>
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script style='module' src='/js/index.js'></script>
+
+<body>
+
+    <header class="primary-header">
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='#'>devices</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 style="text-align: center;">Contact us
+
+        </h1>
+        <form action="/contact/us" class="contact" method="post">
+            <label>Enter your full name;</label>
+            <input type="text" placeholder="name" name="name" required>
+            <label>Enter your email;</label>
+            <input type="email" name="email" id="" placeholder="email" required>
+            <label>Enter your subject;</label>
+            <input type="text" name="subject" placeholder="subject" required>
+            <label>Enter your message;</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="message" required></textarea>
+            <button type="submit">Send</button>
+
+        </form>
+    </main>
+    <footer class="footer-body">
+        <section class="footer">
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Devices</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+
+            </ul>
+            <p class="copyright">
+                copyright &copy;2022 <a href="https://www.github.com/sirkeygun" target="_blank"> <br>Ngumo
+                    Developers </a>
+            </p>
+        </section>
+    </footer>
+</body>
+
+
+
+</html>
